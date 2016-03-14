@@ -1,0 +1,40 @@
+ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+}
+.list-content{
+	.content{
+		color:#000;
+		font:14px/14px 'Microsoft YaHei';
+		ul{
+			li{
+				margin:10px 0 10px 0;
+			}
+		}
+		.tip-text{
+			color:#FFF;
+			width:100%;
+			text-align:center;
+		}
+	}
+	.page-box{
+		color:#000;
+		font:14px/14px 'Microsoft YaHei';
+		a{
+			color:#000;
+			margin:0 6px;
+			&.pageOne:hover,&.pageOne.active{
+				color:#F30;
+			}
+		}
+		input{
+			width:50px;
+			text-align: center;
+			margin:0 6px;
+		}
+	}
+}

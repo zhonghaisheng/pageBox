@@ -1,0 +1,31 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+.list-content .content {
+  color: #000;
+  font: 14px/14px 'Microsoft YaHei'; }
+  .list-content .content ul li {
+    margin: 10px 0 10px 0; }
+  .list-content .content .tip-text {
+    color: #FFF;
+    width: 100%;
+    text-align: center; }
+.list-content .page-box {
+  color: #000;
+  font: 14px/14px 'Microsoft YaHei'; }
+  .list-content .page-box a {
+    color: #000;
+    margin: 0 6px; }
+    .list-content .page-box a.pageOne:hover, .list-content .page-box a.pageOne.active {
+      color: #F30; }
+  .list-content .page-box input {
+    width: 50px;
+    text-align: center;
+    margin: 0 6px; }
+
+/*# sourceMappingURL=style.css.map */
